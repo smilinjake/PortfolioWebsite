@@ -28,9 +28,9 @@ function App() {
           <HomeIcon fontSize="large" className="HomeIcon" />
         </div>
       </div>
-      <Home />
-      <InfoSection />
-      <ContactMe />
+      <Home id="HomePage" />
+      <InfoSection id="InfoPage" />
+      <ContactMe id="ContactPage" />
     </div>
   );
 }

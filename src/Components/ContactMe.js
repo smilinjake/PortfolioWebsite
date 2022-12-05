@@ -17,14 +17,14 @@ const ContactMe = () => {
                   <PhoneIcon fontSize="large" className="BiggerIcon" />
                 </div>
               </span>
-              <div>
+              <div id="PhoneInfo">
                 <h3>PHONE</h3>
                 <h4>+1 (936) 635-3826</h4>
               </div>
             </span>
             <span className="Contact-Block">
               <a
-                className="ContactBubbleLink"
+                // className="ContactBubbleLink"
                 href="mailto:smilinjake@gmail.com"
               >
                 <span className="IconBubble">
@@ -34,7 +34,7 @@ const ContactMe = () => {
               <div className="ContactColumn">
                 <h3>EMAIL</h3>
                 <a
-                  className="ContactBubbleLink"
+                  // className="ContactBubbleLink"
                   href="mailto:smilinjake@gmail.com"
                 >
                   SMILINJAKE@GMAIL.COM
@@ -43,7 +43,7 @@ const ContactMe = () => {
             </span>
             <span className="Contact-Block">
               <a
-                className="ContactBubbleLink"
+                // className="ContactBubbleLink"
                 href="https://www.linkedin.com/in/jacobward96/"
               >
                 <span className="LinkedinBlock">

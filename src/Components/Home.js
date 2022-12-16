@@ -22,34 +22,58 @@ const Home = () => {
 
       <div id="Nav">
         {/* <a className="Link" href="/contact"> */}
-        <ColorButton
+        {/* <ColorButton
           variant="outlined"
           onClick={() => {
             scrollToSection("AboutMe");
           }}
         >
           Info
-        </ColorButton>
+        </ColorButton> */}
+        <div
+          className="HomeNavButton"
+          onClick={() => {
+            scrollToSection("AboutMe");
+          }}
+        >
+          <h5 className="HomeNavButtonText">INFO</h5>
+        </div>
         {/* </a> */}
         {/* <a className="Link" href="/info"> */}
-        <ColorButton
+        {/* <ColorButton
           variant="outlined"
           onClick={() => {
             scrollToSection("ContactSection");
           }}
         >
           Skills
-        </ColorButton>
+        </ColorButton> */}
+        <div
+          className="HomeNavButton"
+          onClick={() => {
+            scrollToSection("ContactSection");
+          }}
+        >
+          <h5 className="HomeNavButtonText">SKILLS</h5>
+        </div>
         {/* </a> */}
         {/* <a className="Link" href="/resume"> */}
-        <ColorButton
+        {/* <ColorButton
           variant="outlined"
           onClick={() => {
             scrollToSection("ContactSection");
           }}
         >
           Contact
-        </ColorButton>
+        </ColorButton> */}
+        <div
+          className="HomeNavButton"
+          onClick={() => {
+            scrollToSection("ContactSection");
+          }}
+        >
+          <h5 className="HomeNavButtonText">CONTACT</h5>
+        </div>
         {/* </a> */}
       </div>
     </div>

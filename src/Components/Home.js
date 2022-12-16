@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import ColorButton from "./ColorButton.js";
 
 const Home = () => {
   let scrollToSection = (section) => {
@@ -21,15 +20,6 @@ const Home = () => {
       </div>
 
       <div id="Nav">
-        {/* <a className="Link" href="/contact"> */}
-        {/* <ColorButton
-          variant="outlined"
-          onClick={() => {
-            scrollToSection("AboutMe");
-          }}
-        >
-          Info
-        </ColorButton> */}
         <div
           className="HomeNavButton"
           onClick={() => {
@@ -38,16 +28,7 @@ const Home = () => {
         >
           <h5 className="HomeNavButtonText">INFO</h5>
         </div>
-        {/* </a> */}
-        {/* <a className="Link" href="/info"> */}
-        {/* <ColorButton
-          variant="outlined"
-          onClick={() => {
-            scrollToSection("ContactSection");
-          }}
-        >
-          Skills
-        </ColorButton> */}
+
         <div
           className="HomeNavButton"
           onClick={() => {
@@ -56,16 +37,7 @@ const Home = () => {
         >
           <h5 className="HomeNavButtonText">SKILLS</h5>
         </div>
-        {/* </a> */}
-        {/* <a className="Link" href="/resume"> */}
-        {/* <ColorButton
-          variant="outlined"
-          onClick={() => {
-            scrollToSection("ContactSection");
-          }}
-        >
-          Contact
-        </ColorButton> */}
+
         <div
           className="HomeNavButton"
           onClick={() => {
@@ -74,7 +46,6 @@ const Home = () => {
         >
           <h5 className="HomeNavButtonText">CONTACT</h5>
         </div>
-        {/* </a> */}
       </div>
     </div>
   );

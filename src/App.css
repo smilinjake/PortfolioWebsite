@@ -267,7 +267,7 @@ strong {
   top: 0;
   left: 0;
   position: fixed;
-  background-color: black;
+  background-color: #0a0a0a;
   width: 100vw;
   z-index: 99;
 }

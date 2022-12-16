@@ -23,29 +23,18 @@ const ContactMe = () => {
               </div>
             </span>
             <span className="Contact-Block">
-              <a
-                // className="ContactBubbleLink"
-                href="mailto:smilinjake@gmail.com"
-              >
+              <a href="mailto:smilinjake@gmail.com">
                 <span className="IconBubble">
                   <EmailOutlinedIcon fontSize="large" className="ButtonLink" />
                 </span>
               </a>
               <div className="ContactColumn">
                 <h3>EMAIL</h3>
-                <a
-                  // className="ContactBubbleLink"
-                  href="mailto:smilinjake@gmail.com"
-                >
-                  SMILINJAKE@GMAIL.COM
-                </a>
+                <a href="mailto:smilinjake@gmail.com">SMILINJAKE@GMAIL.COM</a>
               </div>
             </span>
             <span className="Contact-Block">
-              <a
-                // className="ContactBubbleLink"
-                href="https://www.linkedin.com/in/jacobward96/"
-              >
+              <a href="https://www.linkedin.com/in/jacobward96/">
                 <span className="LinkedinBlock">
                   <LinkedInIcon fontSize="large" className="LinkedIn" />
                 </span>

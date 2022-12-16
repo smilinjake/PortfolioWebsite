@@ -24,7 +24,6 @@ function App() {
   const [conditional, setConditional] = useState(false);
   window.onscroll = () => {
     if (window.pageYOffset >= 700 && !conditional) {
-      // window.alert("cool");
       setConditional(true);
     }
     if (window.pageYOffset < 700 && conditional) {
@@ -39,9 +38,6 @@ function App() {
             className="HomeButton"
             onClick={() => {
               topFunction();
-              // console.log(window.pageYOffset);
-              // console.log(conditional);
-              // console.log(scrollY);
             }}
           >
             <HomeIcon fontSize="large" className="HomeIcon" />

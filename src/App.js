@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Home from "./Components/Home.js";
 import InfoSection from "./Components/InfoSection.js";
 import ContactMe from "./Components/ContactMe.js";
-import SkillsSection from "./Components/Skills.js";
+// import SkillsSection from "./Components/Skills.js";
 import HomeIcon from "@mui/icons-material/Home";
 
 function App() {

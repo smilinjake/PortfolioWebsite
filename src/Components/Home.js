@@ -37,6 +37,14 @@ const Home = () => {
         >
           <h5 className="HomeNavButtonText">SKILLS</h5>
         </div> */}
+        <div
+          className="HomeNavButton"
+          onClick={() => {
+            scrollToSection("ContactSection");
+          }}
+        >
+          <h5 className="HomeNavButtonText">CHESS GAME</h5>
+        </div>
 
         <div
           className="HomeNavButton"

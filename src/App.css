@@ -45,6 +45,9 @@
   align-items: center;
   padding-top: 10%;
 }
+#ChessPage {
+  padding-top: 7%;
+}
 
 /* #PhoneInfo {
   height: 5vh;

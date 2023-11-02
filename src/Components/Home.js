@@ -40,7 +40,7 @@ const Home = () => {
         <div
           className="HomeNavButton"
           onClick={() => {
-            scrollToSection("ContactSection");
+            scrollToSection("ChessPage");
           }}
         >
           <h5 className="HomeNavButtonText">CHESS GAME</h5>

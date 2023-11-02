@@ -58,6 +58,7 @@ const ChessPuzzle = () => {
   useEffect(() => {}, [hookBoard, selected]);
   return (
     <>
+      <div id="ChessPage"></div>
       <div className="ChessSection">
         <div className="BoardContainer">
           {hookBoard.map((piece, i) => {

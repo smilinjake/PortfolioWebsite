@@ -67,7 +67,7 @@ function App() {
       </div>
       <Home id="HomePage" />
       <InfoSection id="InfoPage" />
-      <SkillsSection id="SkillsPage" />
+      {/* <SkillsSection id="SkillsPage" /> */}
       <ChessPuzzle id="ChessPage" />
       <ContactMe id="ContactPage" />
     </div>

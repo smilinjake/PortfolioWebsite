@@ -358,7 +358,8 @@ strong {
 }
 /* ---------------------------------------- CHESS BOARD ----------------------------------------- */
 .ChessSection {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   /* align-items: center; */
@@ -368,9 +369,11 @@ strong {
 .BoardContainer {
   display: flex;
   flex-wrap: wrap;
+  /* width: 80%; */
   width: 640px;
-  /* width: max-content; */
+
   height: 640px;
+  /* height: 80%; */
   border: 20px solid rgb(8, 212, 244);
   justify-content: center;
   align-items: center;
@@ -399,6 +402,8 @@ strong {
   align-content: center;
   align-items: center;
   align-self: center;
+  /* height: 12.5%;
+  width: 12.5%; */
   height: 80px;
   width: 80px;
   /* border: 1px solid black; */
@@ -413,6 +418,8 @@ strong {
   align-content: center;
   align-items: center;
   align-self: center;
+  /* height: 12.5%;
+  width: 12.5%; */
   height: 80px;
   width: 80px;
   /* border: 1px solid black; */
@@ -660,6 +667,26 @@ strong {
 
   p {
     font-size: 4vw;
+  }
+
+  .BoardContainer {
+    width: 80%;
+    height: 80%;
+  }
+
+  .ChessSection {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .GreySquare {
+    height: 12.5%;
+    width: 12.5%;
+  }
+
+  .WhiteSquare {
+    height: 12.5%;
+    width: 12.5%;
   }
 }
 

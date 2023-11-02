@@ -354,12 +354,21 @@ strong {
   color: aqua;
 }
 /* ---------------------------------------- CHESS BOARD ----------------------------------------- */
+.ChessSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+}
+
 .BoardContainer {
   display: flex;
+  flex-wrap: wrap;
   width: 800px;
   /* width: max-content; */
   height: 800px;
-  border: 20px solid grey;
+  border: 20px solid rgb(8, 212, 244);
   justify-content: center;
   align-items: center;
 }
@@ -367,13 +376,15 @@ strong {
   background-color: antiquewhite;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   /* justify-self: center; */
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  align-self: center;
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* align-items: center; */
+  /* align-self: center; */
   height: 100px;
   width: 100px;
+  /* border: 2px solid black; */
   border-radius: 5px;
 }
 .GreySquare {
@@ -385,9 +396,12 @@ strong {
   align-content: center;
   align-items: center;
   align-self: center;
-  height: 100px;
-  width: 100px;
+  height: 96px;
+  width: 96px;
+  border: 1px solid black;
   border-radius: 5px;
+  font-family: "copperplate";
+  font-size: xx-large;
 }
 .WhiteSquare {
   background-color: antiquewhite;
@@ -398,9 +412,12 @@ strong {
   align-content: center;
   align-items: center;
   align-self: center;
-  height: 100px;
-  width: 100px;
+  height: 96px;
+  width: 96px;
+  border: 1px solid black;
   border-radius: 5px;
+  font-family: "copperplate";
+  font-size: xx-large;
 }
 
 /* ---------------------------------------- CONTACT PAGE ---------------------------------------- */

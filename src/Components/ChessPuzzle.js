@@ -31,6 +31,13 @@ const ChessPuzzle = () => {
     id: 0,
   });
   // NOW SOME PIECE MOVING LOGIC
+  const isValidMove = (selection, positionValue) => {
+    //want to return boolean if move is valid
+
+    // rook moves are valid if position is adjacent, or a modulo of 8
+    if (selection.id === positionValue) {
+    }
+  };
   const PieceMover = (arr, place) => {
     if (selected.inHand === false) {
       // selected.inHand = true;
@@ -59,6 +66,9 @@ const ChessPuzzle = () => {
   return (
     <>
       <div id="ChessPage"></div>
+      <p style={{ color: "red", textAlign: "center" }}>
+        CHESS GAME IS STILL UNDER CONSTRUCTION
+      </p>
       <div className="ChessSection">
         <div className="BoardContainer">
           {hookBoard.map((piece, i) => {

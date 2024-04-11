@@ -15,6 +15,11 @@
   justify-items: center;
   margin-bottom: auto;
 }
+#HomeButton {
+  display: flex;
+  align-items: center;
+  background-color: #edecea;
+}
 #AboutMe {
   height: 100dvh;
   width: 100dvw;
@@ -38,7 +43,7 @@
 a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2vw;
-  color: #fafafa;
+  color: #0a0a0a;
   text-decoration: none;
 }
 
@@ -47,7 +52,7 @@ a {
 }
 
 .ButtonLink {
-  color: black;
+  color: #889981;
   font-size: 75px !important;
 }
 
@@ -71,13 +76,13 @@ a {
 }
 
 .HomeButton:hover {
-  border: aqua 2px solid;
+  border: #889981 2px solid;
   cursor: pointer;
 }
 
 .HomeIconPosition {
   padding-left: 2%;
-  padding-top: 2%;
+  padding-top: 0.5%;
 }
 
 h1 {
@@ -100,7 +105,7 @@ h2 {
 h3 {
   font-size: 2vw;
   font-family: Arial, Helvetica, sans-serif;
-  color: #0a0a0a;
+  color: #889981;
   font-weight: lighter;
   margin-top: 0;
   margin-bottom: 2.5vh;
@@ -181,7 +186,7 @@ strong {
 }
 
 .NavButton {
-  border: 2px solid aqua;
+  border: 2px solid #889981;
   border-radius: 500px;
   display: flex;
   /* height: 4vh; */
@@ -193,12 +198,12 @@ strong {
 }
 .NavButton:hover {
   border: 2px solid transparent;
-  background-color: aqua;
+  background-color: #889981;
   /* color: #fafafa; */
 }
 
 .NavButton .NavButtonText:hover {
-  color: black;
+  color: #edecea;
 }
 .NavButtonText {
   font-family: Arial, Helvetica, sans-serif;
@@ -211,7 +216,7 @@ strong {
   padding-bottom: 0.75vh;
   padding-left: 1vw;
   padding-right: 1vw;
-  color: aqua;
+  color: #889981;
   /* position: relative; */
 }
 
@@ -224,44 +229,25 @@ strong {
   justify-content: center;
   align-items: center;
   align-self: center;
-  /* height: 90px; */
-  /* min-height: 4vh; */
   height: 9vh;
 }
 
 .HomePage {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   align-content: flex-start;
   justify-content: center;
   height: 100dvh;
   width: 80dvw;
-  /* justify-content: space-around; */
 }
-
-/* .HomeBorder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px;
-  border: 2px solid #fafafa;
-  border-radius: 10px;
-} */
 
 .HomeIconPosition {
   top: 0;
   left: 0;
   position: fixed;
-  /* background-color: #0a0a0a; */
   width: 100vw;
   z-index: 99;
 }
-
-/* .IntroLine {
-  display: flex;
-  flex-direction: row;
-} */
 
 .HomeNavButton {
   border: 2px solid #889981;
@@ -273,45 +259,28 @@ strong {
   align-items: center;
   justify-content: center;
   background-color: #889981;
-  /* justify-self: center; */
-  /* margin-left: 3vw; */
-  /* margin-right: 3vw; */
   text-align: center;
 }
 .HomeNavButton:hover {
   border: 2px solid transparent;
-  background-color: aqua;
-  /* color: #fafafa; */
+  background-color: #889981;
+  cursor: pointer;
 }
 
 .HomeNavButton .HomeNavButtonText:hover {
-  color: black;
+  color: #edecea;
+  cursor: pointer;
 }
 .HomeNavButtonText {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   font-size: 2.5vh;
   font-weight: lighter;
-  /* margin: 10%; */
-  /* padding: 10% 15% 10% 15%; */
   padding-top: 3vh;
   padding-bottom: 3vh;
-  /* padding-left: 5vw; */
-  /* padding-right: 5vw; */
   color: #fafafa;
-  /* position: relative; */
 }
 /* ---------------------------------------- INFO PAGE ------------------------------------------- */
-
-.BlueBoxInfo {
-  background-color: aqua;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  height: 9vh;
-}
 
 .Info-section {
   height: 100vh;
@@ -333,12 +302,9 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* padding-top: 3.2%; */
-  /* padding-bottom: 4%; */
 }
 
 img {
-  /* height: 100%; */
   margin-top: 2em;
   width: 70%;
   border-radius: 50%;
@@ -361,18 +327,14 @@ img {
   height: 100vh;
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: center;
 }
 
 .BoardContainer {
   display: flex;
   flex-wrap: wrap;
-  /* width: 80%; */
   width: 640px;
-
   height: 640px;
-  /* height: 80%; */
   border: 20px solid rgb(8, 212, 244);
   justify-content: center;
   align-items: center;
@@ -382,47 +344,29 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-self: center; */
-  /* justify-content: center; */
-  /* align-content: center; */
-  /* align-items: center; */
-  /* align-self: center; */
-  /* height: 100px;
-  width: 100px; */
-  /* border: 2px solid black; */
   border-radius: 5px;
 }
 .GreySquare {
   background-color: grey;
   display: flex;
   flex-direction: row;
-  /* justify-self: center; */
   justify-content: center;
   align-content: center;
   align-items: center;
   align-self: center;
-  /* height: 12.5%;
-  width: 12.5%; */
   height: 80px;
   width: 80px;
-  /* border: 1px solid black; */
-  /* border-radius: 1px; */
 }
 .WhiteSquare {
   background-color: antiquewhite;
   display: flex;
   flex-direction: row;
-  /* justify-self: center; */
   justify-content: center;
   align-content: center;
   align-items: center;
   align-self: center;
-  /* height: 12.5%;
-  width: 12.5%; */
   height: 80px;
   width: 80px;
-  /* border: 1px solid black; */
-  /* border-radius: 1px; */
 }
 .FillerPiece {
   font-family: "copperplate";
@@ -439,10 +383,11 @@ img {
   padding-left: 4px;
   padding-top: 4px;
   rotate: 10deg;
+  color: #889981;
 }
 
 .Circle {
-  border: 4px solid black;
+  border: 4px solid #889981;
   border-radius: 50%;
   height: 58px;
   width: 58px;
@@ -452,32 +397,25 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* height: 120px; */
   height: 20vh;
-  /* width: 480px; */
 }
 
 .ContactBubbleLink {
-  /* width: 80px;
-  height: 80px; */
   margin-right: 0;
 }
 
 .ContactColumn {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   align-content: flex-start;
-  /* padding-top: 25px; */
 }
 
 .Contact-Row {
-  width: 90%;
+  width: 90dvw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* padding-bottom: 10vh; */
-  height: 60%;
+  height: 100dvh;
 }
 
 .contact {
@@ -491,27 +429,21 @@ img {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-color: aqua;
   border-radius: 10%;
   height: 80px;
   width: 80px;
   margin-right: 5vw;
 }
 
-/* .IconBubble:hover { */
-/* background: radial-gradient(circle, whitesmoke 35%, #303030 100%); */
-/* } */
-
-.Left-Side {
+.Right-Side {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
-  width: 60%;
 }
 
 .LinkedIn {
-  color: aqua;
+  color: #889981;
   font-size: 107px !important;
 }
 
@@ -527,12 +459,12 @@ img {
   margin-right: 5vw;
 }
 
-.Right-Side {
+.Left-Side {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-
-  width: 40%;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 75dvh;
 }
 
 .Right-Row {
@@ -543,11 +475,8 @@ img {
 .BlueBoxContact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: aqua;
-  /* justify-content: flex-end; */
+  justify-content: flex-end;
   height: 9vh;
-  /* width: 220.5px; */
 }
 
 .LittleRow {
@@ -559,7 +488,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* justify-content: space-around; */
 }
 
 .TypographyBolder {
@@ -593,8 +521,6 @@ img {
 #Canvas {
   background-color: #fafafa;
   position: relative;
-  /* left: 50%;
-  right: 50%; */
 }
 
 #Character {
@@ -604,20 +530,6 @@ img {
   border-radius: 50%;
   display: inline-block;
 }
-
-/* #Ceiling {
-  position: relative;
-  bottom: relative;
-  background-color: aqua;
-  height: 2vh;
-}
-
-#Floor {
-  position: relative;
-  bottom: 0;
-  background-color: brown;
-  height: 2vh;
-} */
 
 .StartRow {
   display: flex;
@@ -635,7 +547,6 @@ img {
   border: Aqua 2px solid;
   justify-content: center;
   align-items: center;
-  /* border-radius: 50%; */
 }
 
 @media screen and (max-width: 479px) {
@@ -665,9 +576,7 @@ img {
     flex-direction: column;
     justify-content: center;
     background-color: aqua;
-    /* justify-content: flex-end; */
     height: 7vh;
-    /* width: 220.5px; */
   }
 
   a {
@@ -694,9 +603,6 @@ img {
     align-self: center;
     align-items: center;
     justify-content: center;
-    /* justify-self: center; */
-    /* margin-left: 3vw; */
-    /* margin-right: 3vw; */
     text-align: center;
   }
   .HomeNavButtonText {
@@ -704,14 +610,11 @@ img {
     margin: 0;
     font-size: 3vw;
     font-weight: lighter;
-    /* margin: 10%; */
-    /* padding: 10% 15% 10% 15%; */
     padding-top: 0.75vh;
     padding-bottom: 0.75vh;
     padding-left: 1vw;
     padding-right: 1vw;
     color: aqua;
-    /* position: relative; */
   }
 
   h1 {

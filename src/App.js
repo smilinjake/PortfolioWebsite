@@ -23,10 +23,10 @@ function App() {
 
   const [conditional, setConditional] = useState(false);
   window.onscroll = () => {
-    if (window.pageYOffset >= 700 && !conditional) {
+    if (window.pageYOffset >= 650 && !conditional) {
       setConditional(true);
     }
-    if (window.pageYOffset < 700 && conditional) {
+    if (window.pageYOffset < 650 && conditional) {
       setConditional(false);
     }
   };

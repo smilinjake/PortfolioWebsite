@@ -11,6 +11,10 @@ const ContactMe = () => {
       <div id="ContactSection">
         <div className="Contact-Row">
           <div className="Left-Side">
+            <h1 className="Typography">Lets</h1>
+            <h1 className="Typography">Connect</h1>
+          </div>
+          <div className="Right-Side">
             <span className="Contact-Block">
               <span className="IconBubble">
                 <div className="Circle">
@@ -57,20 +61,6 @@ const ContactMe = () => {
                 <a href="https://github.com/smilinjake">SMILINJAKE</a>
               </div>
             </span>
-          </div>
-          <div className="Right-Side">
-            <div className="Right-Row">
-              <div className="LittleRow">
-                <div className="BlueBoxContact">
-                  <h1 className="TypographyH1">
-                    <strong className="StrongTitle">GET IN</strong>
-                  </h1>
-                </div>
-              </div>
-              <div className="LittleRow">
-                <h1 className="TypographyBolder">TOUCH</h1>
-              </div>
-            </div>
           </div>
         </div>
       </div>

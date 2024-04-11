@@ -9,12 +9,8 @@ const Home = () => {
     <div id="Home">
       <div className="HomePage">
         <div className="IntroLine">
-          <h1 className="Typography">HI! I'M</h1>
-          <div className="BlueBox">
-            <h1 className="TypographyH1">
-              <strong className="StrongTitle">JAKE</strong>
-            </h1>
-          </div>
+          <h1 className="Typography">Hi!</h1>
+          <h1 className="Typography">I'm Jake</h1>
         </div>
         <h2 className="Typography">A FULL STACK WEB DEVELOPER</h2>
       </div>

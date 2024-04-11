@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import Home from "./Components/Home.js";
 import InfoSection from "./Components/InfoSection.js";
 import ContactMe from "./Components/ContactMe.js";
-import SkillsSection from "./Components/Skills.js";
-import ChessPuzzle from "./Components/ChessPuzzle.js";
+import TestPage from "./Components/TestPage.js";
 import HomeIcon from "@mui/icons-material/Home";
 
 function App() {
@@ -67,8 +66,7 @@ function App() {
       </div>
       <Home id="HomePage" />
       <InfoSection id="InfoPage" />
-      {/* <SkillsSection id="SkillsPage" /> */}
-      {/* <ChessPuzzle id="ChessPage" /> */}
+      {/* <TestPage id="PlayArena" /> */}
       <ContactMe id="ContactPage" />
     </div>
   );

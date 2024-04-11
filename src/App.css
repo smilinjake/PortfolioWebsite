@@ -5,21 +5,6 @@
 }
 
 /* --------- IDS --------- */
-/* #HomePage {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-#InfoPage {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-#ContactPage {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding-top: 10%;
-}
-*/
 
 #Home {
   height: 100vh;
@@ -49,16 +34,10 @@
   padding-top: 7%;
 }
 
-/* #PhoneInfo {
-  height: 5vh;
-} */
-
 /* --------------------------------------- GENERAL ---------------------------------------------- */
 a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2vw;
-  /* margin-top: 10px; */
-  /* margin-bottom: 40px; */
   color: #fafafa;
   text-decoration: none;
 }
@@ -79,7 +58,7 @@ a {
 }
 
 .HomeIcon {
-  color: aqua;
+  color: #889981;
   padding-left: 11.5%;
   padding-top: 9%;
 }
@@ -102,20 +81,20 @@ a {
 }
 
 h1 {
-  color: #fafafa;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 4.5vw;
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
-  /* margin-bottom: 3vh; */
-  padding-right: 10px;
+  color: #889981;
+  font-weight: 500;
+  font-size: 5em;
+  margin-top: 4dvh;
+  margin-bottom: 4dvh;
+  /* font-family: Courier New, monospace; */
+  /* font-size: 4.5vw; */
+  /* padding-right: 10px; */
 }
 
 h2 {
-  font-size: 4.5vw;
-  /* margin-top: 10px;
-  margin-bottom: 40px; */
-  color: aqua;
+  /* font-size: 4.5vw; */
+  color: black;
+  font-size: 3em;
 }
 
 h3 {
@@ -165,7 +144,8 @@ p {
 }
 
 .MuiTypography-root {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Courier New, monospace;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
 }
 
 strong {
@@ -177,16 +157,16 @@ strong {
 }
 
 .Typography {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
+  font-family: Courier New, monospace;
+  /* font-weight: 100; */
 }
 
-.TypographyH1 {
+/* .TypographyH1 {
   color: black;
   padding-left: 10px;
   padding-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 #Nav {
   width: 100%;
@@ -255,8 +235,8 @@ strong {
   /* align-items: center; */
   align-content: flex-start;
   justify-content: center;
-  height: 100%;
-  /* width: 100%; */
+  height: 100dvh;
+  width: 80dvw;
   /* justify-content: space-around; */
 }
 
@@ -273,18 +253,18 @@ strong {
   top: 0;
   left: 0;
   position: fixed;
-  background-color: #0a0a0a;
+  /* background-color: #0a0a0a; */
   width: 100vw;
   z-index: 99;
 }
 
-.IntroLine {
+/* .IntroLine {
   display: flex;
   flex-direction: row;
-}
+} */
 
 .HomeNavButton {
-  border: 2px solid aqua;
+  border: 2px solid #889981;
   border-radius: 500px;
   display: flex;
   height: 7vh;
@@ -292,6 +272,7 @@ strong {
   align-self: center;
   align-items: center;
   justify-content: center;
+  background-color: #889981;
   /* justify-self: center; */
   /* margin-left: 3vw; */
   /* margin-right: 3vw; */
@@ -317,7 +298,7 @@ strong {
   padding-bottom: 3vh;
   /* padding-left: 5vw; */
   /* padding-right: 5vw; */
-  color: aqua;
+  color: #fafafa;
   /* position: relative; */
 }
 /* ---------------------------------------- INFO PAGE ------------------------------------------- */
@@ -577,6 +558,69 @@ strong {
 
 .MyResume {
   padding-bottom: 10px;
+}
+
+/* --------------------------------------- Float n parry ---------------------------------------- */
+
+#PlayArena {
+  /* position: relative; */
+  /* left: 50%;
+  right: 50%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: #fafafa;
+  height: 500px;
+  border-top: 2vh solid aqua;
+  border-bottom: 2vh solid greenyellow; */
+}
+
+#Canvas {
+  background-color: #fafafa;
+  position: relative;
+  /* left: 50%;
+  right: 50%; */
+}
+
+#Character {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* #Ceiling {
+  position: relative;
+  bottom: relative;
+  background-color: aqua;
+  height: 2vh;
+}
+
+#Floor {
+  position: relative;
+  bottom: 0;
+  background-color: brown;
+  height: 2vh;
+} */
+
+.StartRow {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.Start_Button:hover {
+  cursor: pointer;
+}
+
+.Start_Button {
+  display: flex;
+  height: 30px;
+  width: 60px;
+  border: Aqua 2px solid;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 50%; */
 }
 
 @media screen and (max-width: 479px) {

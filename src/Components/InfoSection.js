@@ -6,17 +6,8 @@ const InfoSection = () => {
     <>
       <div id="AboutMe">
         <div className="Info">
-          {/* <div className="InfoRow-1">
-            <div className="BlueBoxInfo">
-              <h1 className="TypographyH1">
-                <strong className="StrongTitle">ABOUT</strong>
-              </h1>
-            </div>
-            <h1 className="TypographyH1Info">ME</h1>
-          </div> */}
           <div className="InfoRow">
             <div className="LeftSide">
-              {/* <div className="circle"></div> */}
               <img src="ProfilePick.png" alt="Avatar" />
             </div>
             <div className="RightSide">

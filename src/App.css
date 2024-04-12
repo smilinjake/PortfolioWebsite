@@ -395,6 +395,9 @@ img {
 }
 
 /* ---------------------------------------- CONTACT PAGE ---------------------------------------- */
+.HiddenForPhone {
+  display: none;
+}
 .BiggerIcon {
   font-size: 50px !important;
   padding-left: 4px;
@@ -619,6 +622,7 @@ img {
   #ContactSection {
     display: flex;
     flex-direction: column;
+    margin-top: 10dvh;
   }
   p.Typography {
     font-size: 3vw;
@@ -626,6 +630,12 @@ img {
   h1.Typography {
     font-size: 2em;
     /* display: none; */
+  }
+  .HiddenForPhone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
   }
   .Left-Side {
     display: none;

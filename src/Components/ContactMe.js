@@ -15,6 +15,9 @@ const ContactMe = () => {
             <h1 className="Typography">Connect</h1>
           </div>
           <div className="Right-Side">
+            <div className="HiddenForPhone">
+              <h1 className="Typography">Lets Connect!</h1>
+            </div>
             <span className="Contact-Block">
               <span className="IconBubble">
                 <div className="Circle">

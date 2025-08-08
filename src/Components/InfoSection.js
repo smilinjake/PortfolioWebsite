@@ -27,9 +27,9 @@ const InfoSection = () => {
             </div>
           </div>
           <p className="Typography">
-            After my graduation, I secured a position at Cynopsis Solutions as
+            After my graduation, I secured a position at Cynopsis Solutions as a
             Front End Software Engineer, and I’m now working on several projects
-            for Data Annotations.
+            for DataAnnotation.tech.
           </p>
           <p className="Typography">
             Fueled by a passion for coding and a thirst for new challenges, I am

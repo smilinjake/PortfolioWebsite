@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Home from "./Components/Home.js";
 import InfoSection from "./Components/InfoSection.js";
 import ContactMe from "./Components/ContactMe.js";
+import Resume from "./Components/Resume.js";
 // import TestPage from "./Components/TestPage.js";
 import HomeIcon from "@mui/icons-material/Home";
 
@@ -55,6 +56,14 @@ function App() {
               <div
                 className="NavButton"
                 onClick={() => {
+                  scrollToSection("ResumeSection");
+                }}
+              >
+                <h5 className="NavButtonText">RESUME</h5>
+              </div>
+              <div
+                className="NavButton"
+                onClick={() => {
                   scrollToSection("ContactSection");
                 }}
               >
@@ -68,6 +77,7 @@ function App() {
       <InfoSection id="InfoPage" />
       {/* <TestPage id="PlayArena" /> */}
       <ContactMe id="ContactPage" />
+      <Resume id="ResumeSection" />
     </div>
   );
 }
